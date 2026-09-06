@@ -20,8 +20,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /**
-   * Mobile nav toggle
+   * Sticky Header on scroll
    */
+  const selectHeader = document.querySelector('#header');
+  if (selectHeader) {
+    const headerScrolled = () => {
+      if (window.scrollY > 40) {
+        selectHeader.classList.add('header-scrolled');
+      } else {
+        selectHeader.classList.remove('header-scrolled');
+      }
+    };
+    window.addEventListener('load', headerScrolled);
+    document.addEventListener('scroll', headerScrolled);
+  }
 
   const mobileNavShow = document.querySelector('.mobile-nav-show');
   const mobileNavHide = document.querySelector('.mobile-nav-hide');

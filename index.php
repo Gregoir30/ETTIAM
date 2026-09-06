@@ -10,13 +10,22 @@ include 'includes/header.php';
     <div class="info d-flex align-items-center">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-9 text-center">
-            <p><br></p>
-            <p><br></p>
-            <p><br></p>
-            <h2 data-aos="fade-down"><br>Bienvenue chez <br><span><b>ETTIAM</b></span></h2><p><br></p>
-            <p data-aos="fade-up">Entreprise Transcontinentale des Travaux d’Infrastructure, d’Aménagement et de Maintenance</p>
-            <a href="#get-started" class="btn-get-started" style="border: 2px solid #fff;">Voir plus</a>
+          <div class="col-lg-10 text-center">
+            <span class="badge bg-warning text-dark px-3 py-2 text-uppercase mb-3 fw-bold" data-aos="fade-down" style="letter-spacing: 1.5px;">Leader en Construction &amp; BTP au Togo</span>
+            <h2 data-aos="fade-down" class="display-4 fw-bold text-white mb-3">
+              Bienvenue chez <span class="text-warning">ETTIAM</span>
+            </h2>
+            <p data-aos="fade-up" class="lead text-white-50 mb-4 px-md-5">
+              Entreprise Transcontinentale des Travaux d’Infrastructure, d’Aménagement et de Maintenance
+            </p>
+            <div class="d-flex flex-wrap justify-content-center gap-3" data-aos="fade-up" data-aos-delay="200">
+              <a href="contact.php" class="btn btn-warning btn-lg px-4 py-3 fw-bold rounded-pill text-dark shadow">
+                Demander un devis <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+              <a href="projects.php" class="btn btn-outline-light btn-lg px-4 py-3 fw-bold rounded-pill">
+                Voir nos réalisations
+              </a>
+            </div>
           </div>
         </div>
       </div>

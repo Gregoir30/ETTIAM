@@ -80,68 +80,79 @@ $pageKeywords = isset($page_keywords) ? htmlspecialchars($page_keywords) : $defa
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <style>
-    .navbar .new-badge {
-      position: absolute;
-      top: -2px;
-      right: -8px;
-      background-color: #dc3545;
-      color: #ffffff;
-      font-size: 9px;
-      padding: 1px 5px;
-      border-radius: 10px;
-      font-weight: bold;
-      text-transform: uppercase;
-      line-height: 1.2;
-    }
-  </style>
+  <!-- Enhanced High-Impact Header CSS -->
+  <link href="assets/css/header-impact.css" rel="stylesheet">
 </head>
 
 <body>
   <div id="preloader"></div>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="topbar d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex justify-content-between align-items-center">
+      <div class="contact-info d-flex align-items-center">
+        <span class="d-none d-lg-inline-block me-3"><i class="bi bi-geo-alt-fill"></i>Atilamonou - Apédokoè, Lomé</span>
+        <a href="mailto:contact@ettiam.com" class="me-3"><i class="bi bi-envelope-fill"></i>contact@ettiam.com</a>
+        <a href="tel:+22897151830"><i class="bi bi-telephone-fill"></i>(+228) 97 15 18 30</a>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <span class="topbar-badge me-3"><i class="bi bi-patch-check-fill me-1"></i>BTP &amp; Ingénierie Certifiée</span>
+        <a href="https://www.facebook.com/ettiam.construction/" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/ettiam/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </div><!-- End Top Bar -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="Logo ETTIAM">
-        <h1 style="color:darkblue;">ETTIAM</h1>
+        <div class="brand-text ms-2">
+          <span class="brand-name">ETTIAM<span class="brand-dot">.</span></span>
+          <span class="brand-tagline">BTP &amp; GÉNIE CIVIL</span>
+        </div>
       </a>
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a href="index.php" class="<?php echo ($currentPage == 'index.php' || $currentPage == '') ? 'active' : ''; ?>">Accueil</a></li>
-            <li><a href="about.php" class="<?php echo ($currentPage == 'about.php') ? 'active' : ''; ?>">À propos</a></li>
-            <li class="dropdown"><a href="#" class="<?php echo $isExperiences ? 'active' : ''; ?>"><span>Expériences</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-              <ul>
-                <li><a href="service-details2025.php" class="<?php echo ($currentPage == 'service-details2025.php') ? 'active' : ''; ?>">Expériences 2025</a></li>
-                <li><a href="service-details2024.php" class="<?php echo ($currentPage == 'service-details2024.php') ? 'active' : ''; ?>">Expériences 2024</a></li>
-                <li><a href="service-details2023.php" class="<?php echo ($currentPage == 'service-details2023.php') ? 'active' : ''; ?>">Expériences 2023</a></li>
-                <li><a href="service-details2022.php" class="<?php echo ($currentPage == 'service-details2022.php') ? 'active' : ''; ?>">Expériences 2022</a></li>
-                <li><a href="service-details2021.php" class="<?php echo ($currentPage == 'service-details2021.php') ? 'active' : ''; ?>">Expériences 2021</a></li>
-                <li><a href="service-details2020.php" class="<?php echo ($currentPage == 'service-details2020.php') ? 'active' : ''; ?>">Expériences 2020</a></li>
-                <li><a href="service-details2019.php" class="<?php echo ($currentPage == 'service-details2019.php') ? 'active' : ''; ?>">Expériences 2019</a></li>
-              </ul>
-            </li>
-            <li class="dropdown"><a href="#" class="<?php echo $isPrestations ? 'active' : ''; ?>"><span>Prestations</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-              <ul>
-                <li><a href="geniecivil.php" class="<?php echo ($currentPage == 'geniecivil.php') ? 'active' : ''; ?>">Construction génie civil</a></li>
-                <li><a href="voirie.php" class="<?php echo ($currentPage == 'voirie.php') ? 'active' : ''; ?>">Voirie et réseaux divers</a></li>
-                <li><a href="hydraulique.php" class="<?php echo ($currentPage == 'hydraulique.php') ? 'active' : ''; ?>">Hydraulique &amp; Assainissement</a></li>
-                <li><a href="exploitation.php" class="<?php echo ($currentPage == 'exploitation.php') ? 'active' : ''; ?>">Section Exploitation</a></li>
-              </ul>
-            </li>
-            <li><a href="projects.php" class="<?php echo $isProjects ? 'active' : ''; ?>">Projets</a></li>
-            <li class="position-relative">
-              <a href="sale-or-rent-btp-auto.php" class="<?php echo ($currentPage == 'sale-or-rent-btp-auto.php') ? 'active' : ''; ?>">Location</a>
-              <span class="new-badge">New</span>
-            </li>
-            <li><a href="contact.php" class="<?php echo ($currentPage == 'contact.php') ? 'active' : ''; ?>">Contact</a></li>
-          </ul>
-        </nav><!-- .navbar -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.php" class="<?php echo ($currentPage == 'index.php' || $currentPage == '') ? 'active' : ''; ?>">Accueil</a></li>
+          <li><a href="about.php" class="<?php echo ($currentPage == 'about.php') ? 'active' : ''; ?>">À propos</a></li>
+          <li class="dropdown"><a href="#" class="<?php echo $isExperiences ? 'active' : ''; ?>"><span>Expériences</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="experience.php?annee=2025" class="<?php echo ($currentPage == 'service-details2025.php' || ($currentPage == 'experience.php' && ($selectedYear ?? 0) == 2025)) ? 'active' : ''; ?>">Expériences 2025</a></li>
+              <li><a href="experience.php?annee=2024" class="<?php echo ($currentPage == 'service-details2024.php' || ($currentPage == 'experience.php' && ($selectedYear ?? 0) == 2024)) ? 'active' : ''; ?>">Expériences 2024</a></li>
+              <li><a href="experience.php?annee=2023" class="<?php echo ($currentPage == 'service-details2023.php' || ($currentPage == 'experience.php' && ($selectedYear ?? 0) == 2023)) ? 'active' : ''; ?>">Expériences 2023</a></li>
+              <li><a href="experience.php?annee=2022" class="<?php echo ($currentPage == 'service-details2022.php' || ($currentPage == 'experience.php' && ($selectedYear ?? 0) == 2022)) ? 'active' : ''; ?>">Expériences 2022</a></li>
+              <li><a href="experience.php?annee=2021" class="<?php echo ($currentPage == 'service-details2021.php' || ($currentPage == 'experience.php' && ($selectedYear ?? 0) == 2021)) ? 'active' : ''; ?>">Expériences 2021</a></li>
+              <li><a href="experience.php?annee=2020" class="<?php echo ($currentPage == 'service-details2020.php' || ($currentPage == 'experience.php' && ($selectedYear ?? 0) == 2020)) ? 'active' : ''; ?>">Expériences 2020</a></li>
+              <li><a href="experience.php?annee=2019" class="<?php echo ($currentPage == 'service-details2019.php' || ($currentPage == 'experience.php' && ($selectedYear ?? 0) == 2019)) ? 'active' : ''; ?>">Expériences 2019</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" class="<?php echo $isPrestations ? 'active' : ''; ?>"><span>Prestations</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="geniecivil.php" class="<?php echo ($currentPage == 'geniecivil.php') ? 'active' : ''; ?>"><i class="bi bi-building me-2"></i>Construction génie civil</a></li>
+              <li><a href="voirie.php" class="<?php echo ($currentPage == 'voirie.php') ? 'active' : ''; ?>"><i class="bi bi-signpost-split me-2"></i>Voirie et réseaux divers</a></li>
+              <li><a href="hydraulique.php" class="<?php echo ($currentPage == 'hydraulique.php') ? 'active' : ''; ?>"><i class="bi bi-droplet-half me-2"></i>Hydraulique &amp; Assainissement</a></li>
+              <li><a href="exploitation.php" class="<?php echo ($currentPage == 'exploitation.php') ? 'active' : ''; ?>"><i class="bi bi-gear-wide-connected me-2"></i>Section Exploitation</a></li>
+            </ul>
+          </li>
+          <li><a href="projects.php" class="<?php echo $isProjects ? 'active' : ''; ?>">Projets</a></li>
+          <li class="position-relative">
+            <a href="sale-or-rent-btp-auto.php" class="<?php echo ($currentPage == 'sale-or-rent-btp-auto.php') ? 'active' : ''; ?>">Location</a>
+            <span class="new-badge">New</span>
+          </li>
+          <li><a href="contact.php" class="<?php echo ($currentPage == 'contact.php') ? 'active' : ''; ?>">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="header-actions d-flex align-items-center">
+        <a href="contact.php" class="btn-get-quote d-none d-lg-inline-flex align-items-center">
+          <span>Devis Gratuit</span>
+          <i class="bi bi-arrow-right-short ms-1"></i>
+        </a>
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list ms-3"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x ms-3"></i>
       </div>
 
     </div>
