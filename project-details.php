@@ -100,6 +100,9 @@
     </div>
   </section><!-- End Projet Details Section -->
 
+  <!-- ======= Call to Action Section ======= -->
+  <?php include 'includes/cta-section.php'; ?>
+
 </main><!-- End #main -->
 
 <?php include 'includes/footer.php'; ?>

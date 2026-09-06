@@ -62,17 +62,11 @@
         </div>
       </section><!-- End Alt Services Section -->
 
-      <!-- ======= CTA Section ======= -->
-      <section class="section-bg py-5 my-4" data-aos="fade-up">
-        <div class="container text-center">
-          <h3>Vous avez un projet d'aménagement ou de voirie ?</h3>
-          <p>Nos ingénieurs et techniciens vous accompagnent de l'étude de faisabilité à la livraison du chantier.</p>
-          <a href="contact.php" class="btn btn-primary px-4 py-2 mt-2">Demander une étude ou un devis</a>
-        </div>
-      </section>
-
     </div>
   </section>
+
+  <!-- ======= Call to Action Section ======= -->
+  <?php include 'includes/cta-section.php'; ?>
 
 </main><!-- End #main -->
 

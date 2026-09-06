@@ -225,4 +225,7 @@ include 'includes/header.php';
   </div>
 </div>
 
-<?php include './includes/footer.php'; ?>
+<!-- ======= Call to Action Section ======= -->
+<?php include 'includes/cta-section.php'; ?>
+
+<?php include 'includes/footer.php'; ?>

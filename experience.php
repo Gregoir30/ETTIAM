@@ -102,19 +102,7 @@ include 'includes/header.php';
   <?php endforeach; ?>
 
   <!-- ======= Call to Action Section ======= -->
-  <section class="section-bg py-5 my-4" data-aos="fade-up">
-    <div class="container text-center">
-      <h3>Vous avez un projet similaire à réaliser ?</h3>
-      <p class="text-muted">Faites confiance à l'expertise d'ETTIAM pour concrétiser vos ouvrages de génie civil et de bâtiment.</p>
-      <div class="d-flex justify-content-center gap-3 mt-3">
-        <a href="contact.php" class="btn btn-primary px-4 py-2">Demander un devis gratuit</a>
-        <a href="https://wa.me/22897151830?text=Bonjour%20ETTIAM,%20je%20souhaite%20des%20informations%20sur%20vos%20projets" 
-           class="btn btn-success px-4 py-2" target="_blank" rel="noopener noreferrer">
-          <i class="bi bi-whatsapp me-1"></i> Discuter sur WhatsApp
-        </a>
-      </div>
-    </div>
-  </section>
+  <?php include 'includes/cta-section.php'; ?>
 
 </main><!-- End #main -->
 
