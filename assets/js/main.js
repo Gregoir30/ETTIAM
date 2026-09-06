@@ -12,9 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   const preloader = document.querySelector('#preloader');
   if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove();
-    });
+    const removePreloader = () => {
+      if (preloader.parentNode) preloader.remove();
+    };
+    window.addEventListener('load', removePreloader);
+    setTimeout(removePreloader, 1500);
   }
 
   /**

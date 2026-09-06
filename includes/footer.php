@@ -50,28 +50,6 @@
 <!-- End Footer -->
 
 
- <script>
-  // Scroll top button
-const scrollTop = document.querySelector('.scroll-top');
-if (scrollTop) {
-  const toggleScrollTop = function() {
-    if (window.scrollY > 100) {
-      scrollTop.classList.add('active');
-    } else {
-      scrollTop.classList.remove('active');
-    }
-  };
-  window.addEventListener('load', toggleScrollTop);
-  document.addEventListener('scroll', toggleScrollTop);
-  scrollTop.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
-}
- </script>
 
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
