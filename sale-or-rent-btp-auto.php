@@ -18,7 +18,7 @@
     <div class="row g-4">
       <div class="col-md-6">
         <div class="card h-100 shadow-sm">
-          <img src="assets/img/materiels/echafaudage.png" class="card-img-top" alt="Échafaudage façadier professionnel">
+          <img src="assets/img/materiels/echafaudage.png" class="card-img-top" alt="Échafaudage façadier professionnel" loading="lazy" decoding="async">
           <div class="card-body">
             <h3 class="h4 card-title">Échafaudage Façadier</h3>
             <ul class="list-unstyled">
@@ -37,7 +37,7 @@
       </div>
       <div class="col-md-6">
         <div class="card h-100 shadow-sm">
-          <img src="assets/img/materiels/echafaudage-roulant.jpg" class="card-img-top" alt="Échafaudage intérieur roulant">
+          <img src="assets/img/materiels/echafaudage-roulant.jpg" class="card-img-top" alt="Échafaudage intérieur roulant" loading="lazy" decoding="async">
           <div class="card-body">
             <h3 class="h4 card-title">Échafaudage Intérieur Roulant</h3>
             <ul class="list-unstyled">
@@ -60,7 +60,7 @@
     <div class="row g-4">
       <div class="col-md-6">
         <div class="card h-100 shadow-sm">
-          <img src="assets/img/materiels/echelle.jpg" class="card-img-top" alt="Échelle de toit professionnelle">
+          <img src="assets/img/materiels/echelle.jpg" class="card-img-top" alt="Échelle de toit professionnelle" loading="lazy" decoding="async">
           <div class="card-body">
             <h3 class="h4 card-title">Échelle de Toit</h3>
             <ul class="list-unstyled">
@@ -77,7 +77,7 @@
       </div>
       <div class="col-md-6">
         <div class="card h-100 shadow-sm">
-          <img src="assets/img/materiels/etais-metallique.jpg" class="card-img-top" alt="Étais métalliques de construction">
+          <img src="assets/img/materiels/etais-metallique.jpg" class="card-img-top" alt="Étais métalliques de construction" loading="lazy" decoding="async">
           <div class="card-body">
             <h3 class="h4 card-title">Étais Métalliques</h3>
             <ul class="list-unstyled">
@@ -102,7 +102,7 @@
       <div class="col-md-6">
         <div class="card h-100 shadow-sm">
           <div class="position-relative">
-            <img src="assets/img/materiels/elevateur.jpg" class="card-img-top" alt="Élévateur de chantier professionnel">
+            <img src="assets/img/materiels/elevateur.jpg" class="card-img-top" alt="Élévateur de chantier professionnel" loading="lazy" decoding="async">
             <span class="position-absolute top-0 start-0 bg-primary text-white px-3 py-1">Nouveau</span>
           </div>
           <div class="card-body">
@@ -125,10 +125,10 @@
           <div id="equipmentCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/img/materiels/betonniere-electrique-jaune.jpg" class="d-block w-100" alt="Bétonnière électrique jaune">
+                <img src="assets/img/materiels/betonniere-electrique-jaune.jpg" class="d-block w-100" alt="Bétonnière électrique jaune" loading="lazy" decoding="async">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/materiels/monopompe.jpg" class="d-block w-100" alt="Motopompe professionnelle">
+                <img src="assets/img/materiels/monopompe.jpg" class="d-block w-100" alt="Motopompe professionnelle" loading="lazy" decoding="async">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#equipmentCarousel" data-bs-slide="prev">
@@ -177,7 +177,7 @@
         <div class="card shadow-sm h-100">
           <div class="row g-0 h-100">
             <div class="col-md-5">
-              <img src="assets/img/materiels/groupe-electrogene.jpg" class="img-fluid rounded-start h-100" alt="Groupe électrogène diesel" style="object-fit: cover;">
+              <img src="assets/img/materiels/groupe-electrogene.jpg" class="img-fluid rounded-start h-100" alt="Groupe électrogène diesel" style="object-fit: cover;" loading="lazy" decoding="async">
             </div>
             <div class="col-md-7">
               <div class="card-body">
@@ -199,7 +199,7 @@
         <div class="card shadow-sm h-100">
           <div class="row g-0 h-100">
             <div class="col-md-5" style="background-color: #fff;">
-              <img src="assets/img/materiels/meule.png" class="img-fluid rounded-start h-100" alt="Meuleuse professionnelle" style="object-fit: cover;">
+              <img src="assets/img/materiels/meule.png" class="img-fluid rounded-start h-100" alt="Meuleuse professionnelle" style="object-fit: cover;" loading="lazy" decoding="async">
             </div>
             <div class="col-md-7">
               <div class="card-body">

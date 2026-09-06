@@ -45,7 +45,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image078.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image078.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2022</h4>
                 <p>PIA TOGO SOJA Isolations works</p>
@@ -56,7 +56,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image076.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image076.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2022</h4>
                 <p>PIA TOGO SOJA Isolations works</p>
@@ -67,7 +67,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image077.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image077.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2022</h4>
                 <p>PIA TOGO SOJA Isolations works</p>

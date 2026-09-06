@@ -24,19 +24,19 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img src="assets/img/projects/remodeling-1.jpg" alt="">
+              <img src="assets/img/projects/remodeling-1.jpg" alt="" loading="lazy" decoding="async">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets/img/projects/construction-1.jpg" alt="">
+              <img src="assets/img/projects/construction-1.jpg" alt="" loading="lazy" decoding="async">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets/img/projects/design-1.jpg" alt="">
+              <img src="assets/img/projects/design-1.jpg" alt="" loading="lazy" decoding="async">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets/img/projects/repairs-1.jpg" alt="">
+              <img src="assets/img/projects/repairs-1.jpg" alt="" loading="lazy" decoding="async">
             </div>
 
           </div>
@@ -66,7 +66,7 @@
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <div>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
               </div>

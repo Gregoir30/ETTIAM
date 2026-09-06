@@ -26,7 +26,7 @@
           <article class="blog-details">
 
             <div class="post-img">
-              <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+              <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid" loading="lazy" decoding="async">
             </div>
 
             <h2 class="title">Sous-titre</h2>
@@ -66,7 +66,7 @@
                 Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores natus aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea.
                 Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem accusamus mollitia aut atque aut.
               </p>
-              <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="">
+              <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
 
               <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
               <p>
@@ -99,7 +99,7 @@
               <div class="mt-3">
 
                 <div class="post-item mt-3">
-                  <img src="assets/img/blog/blog-recent-1.jpg" alt="">
+                  <img src="assets/img/blog/blog-recent-1.jpg" alt="" loading="lazy" decoding="async">
                   <div>
                     <h4><a href="blog-details.php">Nihil blanditiis at in nihil autem</a></h4>
                     <time datetime="2020-01-01">Jan 1, 2020</time>
@@ -107,7 +107,7 @@
                 </div><!-- End recent post item-->
 
                 <div class="post-item">
-                  <img src="assets/img/blog/blog-recent-2.jpg" alt="">
+                  <img src="assets/img/blog/blog-recent-2.jpg" alt="" loading="lazy" decoding="async">
                   <div>
                     <h4><a href="blog-details.php">Quidem autem et impedit</a></h4>
                     <time datetime="2020-01-01">Jan 1, 2020</time>
@@ -115,7 +115,7 @@
                 </div><!-- End recent post item-->
 
                 <div class="post-item">
-                  <img src="assets/img/blog/blog-recent-3.jpg" alt="">
+                  <img src="assets/img/blog/blog-recent-3.jpg" alt="" loading="lazy" decoding="async">
                   <div>
                     <h4><a href="blog-details.php">Id quia et et ut maxime similique occaecati ut</a></h4>
                     <time datetime="2020-01-01">Jan 1, 2020</time>
@@ -123,7 +123,7 @@
                 </div><!-- End recent post item-->
 
                 <div class="post-item">
-                  <img src="assets/img/blog/blog-recent-4.jpg" alt="">
+                  <img src="assets/img/blog/blog-recent-4.jpg" alt="" loading="lazy" decoding="async">
                   <div>
                     <h4><a href="blog-details.php">Laborum corporis quo dara net para</a></h4>
                     <time datetime="2020-01-01">Jan 1, 2020</time>
@@ -131,7 +131,7 @@
                 </div><!-- End recent post item-->
 
                 <div class="post-item">
-                  <img src="assets/img/blog/blog-recent-5.jpg" alt="">
+                  <img src="assets/img/blog/blog-recent-5.jpg" alt="" loading="lazy" decoding="async">
                   <div>
                     <h4><a href="blog-details.php">Et dolores corrupti quae illo quod dolor</a></h4>
                     <time datetime="2020-01-01">Jan 1, 2020</time>

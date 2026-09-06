@@ -49,7 +49,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image47-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image47-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2020</h4>
                 <p>Projet de construction d’une ferme avicole à Agbodrafo</p>
@@ -60,7 +60,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image48.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image48.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2020</h4>
                 <p>Projet de construction d’une ferme avicole à Agbodrafo</p>
@@ -71,7 +71,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image49-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image49-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2020</h4>
                 <p>Projet de construction d’une ferme avicole à Agbodrafo</p>

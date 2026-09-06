@@ -50,7 +50,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image43.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image43.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2021</h4>
                 <p>ICD Boundary Wall</p>
@@ -61,7 +61,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image44-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image44-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2021</h4>
                 <p>ICD Boundary Wall</p>
@@ -72,7 +72,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image45-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image45-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2021</h4>
                 <p>ICD Boundary Wall</p>

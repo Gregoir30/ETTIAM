@@ -25,7 +25,7 @@
           <div class="post-item position-relative h-100">
 
             <div class="post-img position-relative overflow-hidden">
-              <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <span class="post-date">Date</span>
             </div>
 

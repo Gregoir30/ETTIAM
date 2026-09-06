@@ -31,7 +31,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image17-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image17-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>Architecture</h4>
                 <p>Villa F4 &amp; dépendance</p>
@@ -42,7 +42,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image52-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image52-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>Construction</h4>
                 <p>Centrale KEKELI : construction de hangar métallique</p>
@@ -53,7 +53,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image19-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image19-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>Architecture</h4>
                 <p>Quatre unités d’habitation du type F2</p>
@@ -64,7 +64,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image50-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image50-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>Architecture</h4>
                 <p>Villa à Kabou</p>
@@ -75,7 +75,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image21-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image21-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>Architecture</h4>
                 <p>Villa haute standing</p>
@@ -86,7 +86,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image41-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image41-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>Construction</h4>
                 <p>Bâtiment ESAM</p>
@@ -97,7 +97,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image58-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image58-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>Construction</h4>
                 <p>Travaux d’aménagement de Roundabout et de protection de talus</p>
@@ -108,7 +108,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image24-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image24-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>Architecture</h4>
                 <p>Conception de pont bipoutre mixte</p>
@@ -119,7 +119,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image27-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image27-2.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>Architecture</h4>
                 <p>Bâtiment scolaire</p>

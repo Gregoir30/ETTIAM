@@ -42,7 +42,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image108.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image108.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2025</h4>
                 <p>Etudes de la villa</p>
@@ -52,7 +52,7 @@
           </div><!-- End Projects Item -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image004.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image004.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2025</h4>
                 <p>Debut de la construction de la villa</p>
@@ -62,7 +62,7 @@
           </div><!-- End Projects Item -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image107.jpg" class="img-fluid" alt="">
+              <img src="assets/img/image107.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2025</h4>
                 <p>Suite de la construction de la villa</p>

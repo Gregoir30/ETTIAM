@@ -45,7 +45,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image34.jpg" class="img-fluid equal-height" alt="">
+              <img src="assets/img/image34.jpg" class="img-fluid equal-height" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2023</h4>
                 <p>PIA STP Civil works</p>
@@ -56,7 +56,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image69-2.jpg" class="img-fluid equal-height" alt="">
+              <img src="assets/img/image69-2.jpg" class="img-fluid equal-height" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2023</h4>
                 <p>PIA STP Civil works</p>
@@ -67,7 +67,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image36.jpg" class="img-fluid equal-height" alt="">
+              <img src="assets/img/image36.jpg" class="img-fluid equal-height" alt="" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2023</h4>
                 <p>PIA STP Civil works</p>
@@ -93,7 +93,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image059.jpg" class="img-fluid equal-height" alt="Ligne de conduite d’eau">
+              <img src="assets/img/image059.jpg" class="img-fluid equal-height" alt="Ligne de conduite d’eau" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2023</h4>
                 <p>Ligne de conduite d’eau</p>
@@ -104,7 +104,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image060.png" class="img-fluid equal-height" alt="Ligne de conduite d’eau">
+              <img src="assets/img/image060.png" class="img-fluid equal-height" alt="Ligne de conduite d’eau" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2023</h4>
                 <p>Ligne de conduite d’eau</p>
@@ -115,7 +115,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-content h-100">
-              <img src="assets/img/image061.jpg" class="img-fluid equal-height" alt="Ligne de conduite d’eau">
+              <img src="assets/img/image061.jpg" class="img-fluid equal-height" alt="Ligne de conduite d’eau" loading="lazy" decoding="async">
               <div class="portfolio-info">
                 <h4>2023</h4>
                 <p>Ligne de conduite d’eau</p>

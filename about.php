@@ -66,7 +66,7 @@
           <div class="swiper-slide">
             <div class="testimonial-wrap">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-9.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-9.jpg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <h3>Koffi BOTOKLO</h3>
                 <h4>Ingénieur GC / structure</h4>
                 <p>Niveau  : Master II <br>Années d'expérience : 8 ans</p>
@@ -77,7 +77,7 @@
           <div class="swiper-slide">
             <div class="testimonial-wrap">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <h3>Komi Edem AKAGBE</h3>
                 <h4>Ingénieur Génie Civil</h4>
                 <p>Niveau  : BAC +5 <br>Années d'expérience : 30 ans</p>
@@ -88,7 +88,7 @@
           <div class="swiper-slide">
             <div class="testimonial-wrap">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-8.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-8.jpg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <h3>Komlanvi SOSSOU</h3>
                 <h4>Technicien Génie Civil</h4>
                 <p>Niveau  : Master II <br>Années d'expérience : 2 ans</p>
@@ -99,7 +99,7 @@
           <div class="swiper-slide">
             <div class="testimonial-wrap">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-7.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-7.jpg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <h3>Linda Estelle GAFFO FOUDJO</h3>
                 <h4>Ingénieure géotechnique</h4>
                 <p>Niveau  : Master II <br>Années d'expérience : 6 ans</p>
