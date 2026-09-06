@@ -620,105 +620,89 @@ include 'includes/header.php';
   </section><!-- End Our Projects Section -->
 
   <!-- ======= Section Pourquoi Choisir ETTIAM (Notre Différence) ======= -->
-  <section class="py-5 difference-section">
+  <section class="py-5 bg-light border-top border-bottom">
     <div class="container py-4" data-aos="fade-up">
-      <div class="row align-items-center gy-5">
-        
-        <!-- Colonne Gauche : Argumentaire -->
-        <div class="col-lg-5">
-          <div class="difference-intro pe-lg-5">
-            <span class="difference-badge text-uppercase fw-bold mb-3">
-              <i class="bi bi-patch-check-fill me-1"></i> Notre Différence
-            </span>
-            <h2 class="display-6 fw-bold mb-3">
-              Pourquoi confier votre ouvrage à ETTIAM ?
-            </h2>
-            <p class="lead fs-6 mb-4">
-              Contrairement aux simples exécutants, ETTIAM réunit un <strong>bureau d'études techniques intégré</strong> et des <strong>équipes travaux hautement qualifiées</strong>, assurant une maîtrise totale de la chaîne de valeur, de l'esquisse à la remise des clés.
-            </p>
-            <div class="d-flex flex-wrap align-items-center gap-3">
-              <a href="contact.php" class="btn difference-primary-btn px-4 py-3 fw-bold d-inline-flex align-items-center">
-                Demander un devis détaillé <i class="bi bi-arrow-right ms-2"></i>
-              </a>
-              <a href="about.php" class="btn difference-secondary-btn px-4 py-3 fw-semibold">
-                Découvrir nos experts
-              </a>
+
+      <!-- En-tête centré -->
+      <div class="text-center max-width-700 mx-auto mb-5" style="max-width: 800px;">
+        <span class="badge bg-warning text-dark px-3 py-2 text-uppercase fw-bold mb-3 shadow-sm" style="letter-spacing: 1.5px;">
+          Notre Différence
+        </span>
+        <h2 class="display-6 fw-bold text-dark mb-3">
+          Pourquoi confier votre ouvrage à ETTIAM ?
+        </h2>
+        <p class="lead text-muted fs-6 mb-0" style="line-height: 1.7;">
+          Contrairement aux simples exécutants, ETTIAM réunit un <strong>bureau d'études techniques intégré</strong> et des <strong>équipes travaux hautement qualifiées</strong>, assurant une maîtrise totale de la chaîne de valeur, de la conception géotechnique à la livraison des clés.
+        </p>
+      </div>
+
+      <!-- Les 4 Piliers d'Excellence (Grille symétrique et aérée) -->
+      <div class="row g-4">
+
+        <!-- Pilier 1 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center difference-pillar-card">
+            <div class="pillar-icon-box mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle">
+              <i class="bi bi-shield-check fs-2 text-primary"></i>
             </div>
+            <h5 class="fw-bold text-dark mb-2">Rigueur &amp; Normes Internationales</h5>
+            <p class="text-muted small mb-0" style="line-height: 1.6;">
+              Tous nos calculs de structure respectent scrupuleusement les normes BAEL et Eurocodes avec validation géotechnique des sols.
+            </p>
           </div>
         </div>
 
-        <!-- Colonne Droite : Les 4 Piliers -->
-        <div class="col-lg-7">
-          <div class="row g-3 difference-pillars">
-            
-            <!-- Pilier 1 -->
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="pillar-card p-4 h-100 position-relative">
-                <div class="d-flex justify-content-between align-items-start mb-3">
-                  <div class="pillar-icon d-flex align-items-center justify-content-center rounded-3">
-                    <i class="bi bi-shield-check"></i>
-                  </div>
-                  <span class="pillar-number">01</span>
-                </div>
-                <h5 class="fw-bold text-dark mb-2">Rigueur &amp; Normes Internationales</h5>
-                <p class="text-muted small mb-0" style="line-height: 1.6;">
-                  Tous nos calculs de structure respectent scrupuleusement les normes BAEL et Eurocodes avec validation géotechnique systématique des sols.
-                </p>
-              </div>
+        <!-- Pilier 2 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center difference-pillar-card">
+            <div class="pillar-icon-box mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle">
+              <i class="bi bi-clock-history fs-2 text-primary"></i>
             </div>
+            <h5 class="fw-bold text-dark mb-2">Respect des Délais &amp; Budgets</h5>
+            <p class="text-muted small mb-0" style="line-height: 1.6;">
+              Planning d'exécution rigoureux (méthode GANTT) et devis estimatifs détaillés sans surcoût imprévu.
+            </p>
+          </div>
+        </div>
 
-            <!-- Pilier 2 -->
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="pillar-card p-4 h-100 position-relative">
-                <div class="d-flex justify-content-between align-items-start mb-3">
-                  <div class="pillar-icon d-flex align-items-center justify-content-center rounded-3">
-                    <i class="bi bi-calendar2-check"></i>
-                  </div>
-                  <span class="pillar-number">02</span>
-                </div>
-                <h5 class="fw-bold text-dark mb-2">Respect des Délais &amp; Budgets</h5>
-                <p class="text-muted small mb-0" style="line-height: 1.6;">
-                  Planning d'exécution rigoureux (méthode GANTT) et devis estimatifs quantitatifs détaillés sans aucun surcoût imprévu.
-                </p>
-              </div>
+        <!-- Pilier 3 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center difference-pillar-card">
+            <div class="pillar-icon-box mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle">
+              <i class="bi bi-person-badge fs-2 text-primary"></i>
             </div>
+            <h5 class="fw-bold text-dark mb-2">Ingénieur Résident Dédié</h5>
+            <p class="text-muted small mb-0" style="line-height: 1.6;">
+              Chaque chantier est supervisé au quotidien par un ingénieur ou conducteur de travaux expérimenté.
+            </p>
+          </div>
+        </div>
 
-            <!-- Pilier 3 -->
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="pillar-card p-4 h-100 position-relative">
-                <div class="d-flex justify-content-between align-items-start mb-3">
-                  <div class="pillar-icon d-flex align-items-center justify-content-center rounded-3">
-                    <i class="bi bi-person-workspace"></i>
-                  </div>
-                  <span class="pillar-number">03</span>
-                </div>
-                <h5 class="fw-bold text-dark mb-2">Ingénieur Résident Dédié</h5>
-                <p class="text-muted small mb-0" style="line-height: 1.6;">
-                  Chaque chantier est piloté au quotidien par un ingénieur ou conducteur de travaux résident pour un contrôle qualité continu.
-                </p>
-              </div>
+        <!-- Pilier 4 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center difference-pillar-card">
+            <div class="pillar-icon-box mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle">
+              <i class="bi bi-tools fs-2 text-primary"></i>
             </div>
-
-            <!-- Pilier 4 -->
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="pillar-card p-4 h-100 position-relative">
-                <div class="d-flex justify-content-between align-items-start mb-3">
-                  <div class="pillar-icon d-flex align-items-center justify-content-center rounded-3">
-                    <i class="bi bi-truck"></i>
-                  </div>
-                  <span class="pillar-number">04</span>
-                </div>
-                <h5 class="fw-bold text-dark mb-2">Parc Matériel Propre</h5>
-                <p class="text-muted small mb-0" style="line-height: 1.6;">
-                  Élévateurs, échafaudages certifiés, bétonnières et engins en pleine propriété garantissant réactivité et autonomie sans dépendance tierce.
-                </p>
-              </div>
-            </div>
-
+            <h5 class="fw-bold text-dark mb-2">Parc Matériel Propre</h5>
+            <p class="text-muted small mb-0" style="line-height: 1.6;">
+              Élévateurs, échafaudages, bétonnières et engins en propriété garantissant réactivité et autonomie sans intermédiaire.
+            </p>
           </div>
         </div>
 
       </div>
+
+      <!-- Boutons d'action centrés -->
+      <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="500">
+        <a href="contact.php" class="btn btn-primary px-4 py-3 rounded-pill fw-bold shadow-sm me-md-2 mb-2 mb-md-0">
+          Demander une étude ou un devis <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+        <a href="about.php" class="btn btn-outline-secondary px-4 py-3 rounded-pill fw-semibold">
+          En savoir plus sur notre équipe
+        </a>
+      </div>
+
     </div>
   </section>
 
@@ -802,101 +786,26 @@ include 'includes/header.php';
   }
 
   /* Style Section Notre Différence & Piliers */
-  .difference-section {
-    position: relative;
-    overflow: hidden;
-    background: #0b2545;
-    color: #fff;
+  .difference-pillar-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.06) !important;
   }
-  .difference-section::before {
-    content: "";
-    position: absolute;
-    width: 28rem;
-    height: 28rem;
-    right: -12rem;
-    top: -15rem;
-    border: 1px solid rgba(255, 183, 3, 0.18);
-    border-radius: 50%;
+  .difference-pillar-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 32px rgba(11, 37, 69, 0.08) !important;
   }
-  .difference-intro {
-    position: relative;
-    z-index: 1;
-  }
-  .difference-intro h2 {
-    color: #fff;
-    letter-spacing: -0.02em;
-  }
-  .difference-intro p {
-    color: rgba(255, 255, 255, 0.72);
-    line-height: 1.8;
-  }
-  .difference-intro strong {
-    color: #fff;
-  }
-  .difference-badge {
-    display: inline-block;
-    color: #ffb703;
-    font-size: 0.72rem;
-    letter-spacing: 1.8px;
-  }
-  .difference-primary-btn {
-    background: #ffb703;
-    color: #0b2545;
-    border: 1px solid #ffb703;
-  }
-  .difference-primary-btn:hover {
-    background: #fff;
-    color: #0b2545;
-    border-color: #fff;
-  }
-  .difference-secondary-btn {
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.35);
-  }
-  .difference-secondary-btn:hover {
-    color: #ffb703;
-    border-color: #ffb703;
-  }
-  .pillar-card {
-    border: 1px solid rgba(11, 37, 69, 0.08) !important;
-    border-left: 4px solid #ffb703 !important;
-    background: #fff;
-    color: #0b2545;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12) !important;
-    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-  }
-  .pillar-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 18px 38px rgba(0, 0, 0, 0.2) !important;
-  }
-  .pillar-icon {
-    width: 48px;
-    height: 48px;
-    background: #0b2545;
-    color: #ffb703;
-    font-size: 1.35rem;
+  .pillar-icon-box {
+    width: 64px;
+    height: 64px;
+    background: #f0f4f8;
     transition: all 0.3s ease;
   }
-  .pillar-card:hover .pillar-icon {
+  .difference-pillar-card:hover .pillar-icon-box {
     background: #ffb703;
-    color: #0b2545;
-    transform: scale(1.08);
   }
-  .pillar-number {
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: #cbd5e1;
-    letter-spacing: 1px;
-    line-height: 1;
-    transition: color 0.3s ease;
-  }
-  .pillar-card:hover .pillar-number {
-    color: #0b2545;
-  }
-  @media (max-width: 991px) {
-    .difference-intro {
-      padding-right: 0 !important;
-    }
+  .difference-pillar-card:hover .pillar-icon-box i {
+    color: #0b2545 !important;
   }
 </style>
 
