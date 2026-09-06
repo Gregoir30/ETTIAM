@@ -57,6 +57,11 @@ include 'includes/header.php';
 
         <div class="col-lg-6">
           <form action="forms/contact.php" method="post" role="form" class="php-email-form card p-4 shadow-sm">
+            <!-- Champ anti-spam Honeypot (invisible aux humains, piege pour les robots) -->
+            <div style="display:none !important;" aria-hidden="true">
+              <input type="text" name="website" tabindex="-1" autocomplete="off">
+            </div>
+
             <h3 class="h4 mb-3 text-primary">Envoyez-nous un message</h3>
             <div class="row gy-3">
               <div class="col-md-6 form-group">
