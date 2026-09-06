@@ -2,7 +2,7 @@
 $currentPage = basename($_SERVER['PHP_SELF']);
 
 // Détection dynamique des sections pour les menus déroulants
-$isExperiences = (strpos($currentPage, 'service-details') === 0);
+$isExperiences = (strpos($currentPage, 'service-details') === 0 || $currentPage === 'experience.php');
 $isPrestations = in_array($currentPage, ['geniecivil.php', 'voirie.php', 'hydraulique.php', 'exploitation.php']);
 $isProjects = in_array($currentPage, ['projects.php', 'project-details.php']);
 $isBlog = in_array($currentPage, ['blog.php', 'blog-details.php']);
