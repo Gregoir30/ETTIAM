@@ -1,0 +1,23 @@
+# Composer dependencies
+/vendor/
+
+# Server exports / temporary dumps
+/home/
+/movie/
+*.log
+
+# Environment & local settings
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
