@@ -1721,15 +1721,18 @@ h3 {
   
   .contact .php-email-form button[type=submit] {
     background: var(--color-primary);
-    border: 0;
+    border: 1px solid var(--color-primary);
     padding: 10px 35px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 5px;
+    color: #000000;
+    font-weight: 600;
+    transition: 0.3s ease;
+    border-radius: 4px;
   }
   
   .contact .php-email-form button[type=submit]:hover {
-    background: rgba(254, 185, 0, 0.8);
+    background: #0b2545;
+    border-color: #0b2545;
+    color: #ffffff;
   }
   
   @keyframes animate-loading {

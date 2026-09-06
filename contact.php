@@ -85,7 +85,12 @@ include 'includes/header.php';
                 <div class="sent-message">Votre message a été envoyé avec succès. Merci !</div>
               </div>
               <div class="text-center">
-                <button type="submit" class="btn btn-primary px-4 py-2">Envoyer le message</button>
+                <button type="submit" class="btn px-4 py-2 btn-contact-submit" 
+                        style="color: black; background-color: var(--ettiam-primary, #feb900); border: 1px solid var(--ettiam-primary, #feb900); border-radius: 4px; font-weight: 600; transition: all 0.3s ease;" 
+                        onmouseover="this.style.color='white'; this.style.backgroundColor='#0b2545'; this.style.borderColor='#0b2545';" 
+                        onmouseout="this.style.color='black'; this.style.backgroundColor='var(--ettiam-primary, #feb900)'; this.style.borderColor='var(--ettiam-primary, #feb900)';">
+                  Envoyer le message
+                </button>
               </div>
             </div>
           </form>
