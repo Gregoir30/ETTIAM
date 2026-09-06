@@ -74,7 +74,7 @@ include 'includes/header.php';
                 <input type="text" class="form-control" name="phone" id="phone" placeholder="Téléphone (ex: +228 90 00 00 00)">
               </div>
               <div class="col-12 form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet de votre demande" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet de votre demande" value="<?= isset($_GET['subject']) ? htmlspecialchars($_GET['subject']) : '' ?>" required>
               </div>
               <div class="col-12 form-group">
                 <textarea class="form-control" name="message" rows="5" placeholder="Votre message ou description de votre projet" required></textarea>
