@@ -1,4 +1,8 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$page_title = "Hydraulique & Assainissement";
+$page_description = "Études hydrogéologiques, forages d'eau, réseaux d'adduction d'eau potable et assainissement liquide par ETTIAM.";
+include 'includes/header.php';
+?>
 
 <main id="main">
 

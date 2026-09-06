@@ -1,4 +1,8 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$page_title = "Nos Projets & Réalisations";
+$page_description = "Consultez nos réalisations phares en architecture, construction de villas, ponts, bâtiments scolaires et hangars industriels au Togo.";
+include 'includes/header.php';
+?>
 
 <main id="main">
 

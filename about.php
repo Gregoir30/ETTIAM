@@ -1,4 +1,8 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$page_title = "À propos de nous";
+$page_description = "Découvrez l'histoire, la mission, la vision et l'équipe d'ingénieurs et architectes de l'entreprise ETTIAM à Lomé.";
+include 'includes/header.php';
+?>
 
 <main id="main">
 

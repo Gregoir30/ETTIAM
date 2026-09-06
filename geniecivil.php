@@ -1,4 +1,8 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$page_title = "Construction & Génie Civil";
+$page_description = "Conception et dimensionnement de structures béton armé, métallique, DAO-CAO et suivi de travaux par ETTIAM.";
+include 'includes/header.php';
+?>
 
 <main id="main">
 

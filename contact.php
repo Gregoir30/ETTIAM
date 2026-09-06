@@ -1,4 +1,8 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$page_title = "Contactez-nous & Devis";
+$page_description = "Contactez ETTIAM à Lomé : siège social à Atilamonou - Apédokoè, téléphone (+228) 97 15 18 30, email ou formulaire en ligne.";
+include 'includes/header.php';
+?>
 
 <main id="main">
 

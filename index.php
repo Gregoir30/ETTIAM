@@ -1,4 +1,8 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$page_title = "Accueil - Entreprise de BTP & Construction";
+$page_description = "ETTIAM est votre partenaire de référence en construction de bâtiment, génie civil, assainissement, VRD et aménagement au Togo et dans la sous-région.";
+include 'includes/header.php';
+?>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero">

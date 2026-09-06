@@ -1,4 +1,8 @@
-<?php include './includes/header.php'; ?>
+<?php
+$page_title = "Vente & Location de Matériel BTP";
+$page_description = "Location et vente d'échafaudages, étais métalliques, élévateurs, bétonnières et engins de chantier au Togo avec ETTIAM.";
+include 'includes/header.php';
+?>
 
 <!-- Hero Banner -->
   <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
